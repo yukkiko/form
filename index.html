@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/patryk7465@gmail.com" method="post">
+        <label for="name">Podaj imię</label><br>
+        <input type="text" id="name" name="Imię" placeholder="Imię"><br>
+        <label for="surname">Podaj nazwisko</label><br>
+        <input type="text" id="surname" name="Nazwisko" placeholder="Nazwisko"><br>
+        <label for="email">Podaj adres email</label><br>
+        <input type="text" id="email" name="Email" placeholder="Adres email"><br>
+        <label for="tel">Podaj numer telefonu</label><br>
+        <input type="tel" id="tel" name="Telefon" placeholder="Numer telefonu"><br>
+        <label for="options">Wybierz miasto</label><br>
+        <select name="Miasto" id="options">
+      <option value="Kraków">Kraków</option>
+      <option value="Warszawa">Warszawa</option>
+      <option value="Gdańsk">Gdanśk</option>
+  </select><br>
+        <label for="gender">Wybierz płeć</label><br>
+         <input type="radio" id="gender" name="Płeć" value="Mężczyzna">Mężczyzna <br>
+         <input type="radio" name="Płeć" value="Kobieta">Kobieta <br>
+        <input type="checkbox" id="check" name="Zgoda na dane osobowe">
+        <label for="check">zgoda na dane osobowe</label><br>
+        <label for="msg">Napisz wiadomość</label><br>
+        <textarea name="Wiadomość" id="msg" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+        <input type="submit" value="Wyślij">
+    </form>
+
+
+</body>
+
+</html>
